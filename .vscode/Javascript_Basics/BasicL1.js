@@ -77,4 +77,30 @@ if(j%2==0)
 }
 }
 
-//--------------------
+//--------------------------
+//17.02.2024
+// Arrays
+// array initialising
+console.log("Array chapter")
+let marks1=Array(6)
+var marks=new Array(12,23,34,45,56,67)
+
+var marks=[223,3,5,56]
+console.log(marks[2])
+
+// to assign specific value to element in array
+marks[2]=143
+
+console.log(marks[2])
+console.log("Whole array is displayed",marks)
+console.log("Length of array",marks.length)
+
+// to append new element at the end
+marks.push(78)
+console.log("Whole array is displayed",marks)
+  
+
+
+//------------------------------------------------------
+
+//19.04.2025 
